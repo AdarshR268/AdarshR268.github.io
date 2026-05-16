@@ -6,6 +6,7 @@
       hamburgerButton.addEventListener("click", () => {
         // Toggle visibility of the menu
         menu.classList.toggle("hidden");
+        menu.classList.toggle("flex");
       });
 
         // form validation
